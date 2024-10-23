@@ -21,6 +21,31 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // Spring Boot Web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // Spring Boot WebSocket
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+    // Twilio SDK
+    implementation 'com.twilio.sdk:twilio:8.31.1'
+
+    // Google Cloud Speech-to-Text API
+    implementation 'com.google.cloud:google-cloud-speech:2.0.0'
+
+    // JSON 처리 라이브러리 (org.json)
+    implementation 'org.json:json:20210307'
+
+    // Lombok (선택 사항: 편의성 제공)
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // Spring Boot DevTools (선택 사항: 개발 시 자동 재시작 기능 제공)
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    // Spring Boot Test (테스트)
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 tasks.named('test') {

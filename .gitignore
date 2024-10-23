@@ -35,3 +35,12 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# macOS specific files
+.DS_Store
+
+# Audio files
+*.wav
+
+# Secret or credentials files
+src/main/resources/stt.json
